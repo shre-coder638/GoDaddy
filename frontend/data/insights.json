@@ -1,0 +1,2865 @@
+{
+ "totalOrders": 11238,
+ "peakSlots": [
+  {
+   "slot": "12:45",
+   "orders": 1324
+  },
+  {
+   "slot": "12:30",
+   "orders": 1277
+  },
+  {
+   "slot": "13:00",
+   "orders": 1142
+  },
+  {
+   "slot": "12:15",
+   "orders": 885
+  },
+  {
+   "slot": "13:15",
+   "orders": 825
+  },
+  {
+   "slot": "12:00",
+   "orders": 572
+  }
+ ],
+ "topByDay": {
+  "Mon": [
+   {
+    "item": "Samosa",
+    "avgPerDay": 142
+   },
+   {
+    "item": "Cutting Chai",
+    "avgPerDay": 128
+   },
+   {
+    "item": "Vada Pav",
+    "avgPerDay": 57
+   },
+   {
+    "item": "Chole Bhature",
+    "avgPerDay": 55
+   },
+   {
+    "item": "Masala Maggi",
+    "avgPerDay": 51
+   }
+  ],
+  "Tue": [
+   {
+    "item": "Chole Bhature",
+    "avgPerDay": 120
+   },
+   {
+    "item": "Samosa",
+    "avgPerDay": 95
+   },
+   {
+    "item": "Cutting Chai",
+    "avgPerDay": 84
+   },
+   {
+    "item": "Vada Pav",
+    "avgPerDay": 62
+   },
+   {
+    "item": "Masala Maggi",
+    "avgPerDay": 56
+   }
+  ],
+  "Wed": [
+   {
+    "item": "Vada Pav",
+    "avgPerDay": 115
+   },
+   {
+    "item": "Samosa",
+    "avgPerDay": 86
+   },
+   {
+    "item": "Cutting Chai",
+    "avgPerDay": 79
+   },
+   {
+    "item": "Chole Bhature",
+    "avgPerDay": 69
+   },
+   {
+    "item": "Masala Maggi",
+    "avgPerDay": 69
+   }
+  ],
+  "Thu": [
+   {
+    "item": "Masala Maggi",
+    "avgPerDay": 97
+   },
+   {
+    "item": "Samosa",
+    "avgPerDay": 89
+   },
+   {
+    "item": "Cutting Chai",
+    "avgPerDay": 76
+   },
+   {
+    "item": "Vada Pav",
+    "avgPerDay": 65
+   },
+   {
+    "item": "Chole Bhature",
+    "avgPerDay": 54
+   }
+  ],
+  "Fri": [
+   {
+    "item": "Samosa",
+    "avgPerDay": 80
+   },
+   {
+    "item": "Veg Biryani",
+    "avgPerDay": 79
+   },
+   {
+    "item": "Cutting Chai",
+    "avgPerDay": 59
+   },
+   {
+    "item": "Vada Pav",
+    "avgPerDay": 59
+   },
+   {
+    "item": "Chole Bhature",
+    "avgPerDay": 52
+   }
+  ],
+  "Sat": [
+   {
+    "item": "Samosa",
+    "avgPerDay": 104
+   },
+   {
+    "item": "Cutting Chai",
+    "avgPerDay": 82
+   },
+   {
+    "item": "Vada Pav",
+    "avgPerDay": 66
+   },
+   {
+    "item": "Grilled Sandwich",
+    "avgPerDay": 64
+   },
+   {
+    "item": "Chole Bhature",
+    "avgPerDay": 62
+   }
+  ]
+ },
+ "cookAhead": {
+  "Mon": {
+   "12:45": [
+    {
+     "item": "Samosa",
+     "qty": 16
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 12
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 10
+    }
+   ],
+   "12:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 18
+    },
+    {
+     "item": "Samosa",
+     "qty": 15
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 7
+    }
+   ],
+   "10:30": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "11:45": [
+    {
+     "item": "Samosa",
+     "qty": 7
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "13:45": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "13:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 13
+    },
+    {
+     "item": "Samosa",
+     "qty": 9
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 6
+    }
+   ],
+   "11:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "09:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "15:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    }
+   ],
+   "13:30": [
+    {
+     "item": "Samosa",
+     "qty": 9
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 6
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 5
+    }
+   ],
+   "13:00": [
+    {
+     "item": "Samosa",
+     "qty": 15
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 13
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 7
+    }
+   ],
+   "12:15": [
+    {
+     "item": "Samosa",
+     "qty": 11
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 8
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 6
+    }
+   ],
+   "16:45": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    }
+   ],
+   "14:00": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "09:15": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "16:30": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "14:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    }
+   ],
+   "14:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "15:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "10:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "12:00": [
+    {
+     "item": "Samosa",
+     "qty": 8
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 6
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 4
+    }
+   ],
+   "11:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "15:15": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "16:15": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    }
+   ],
+   "11:15": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    }
+   ],
+   "09:30": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "14:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "15:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "16:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "10:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    }
+   ],
+   "09:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 1
+    }
+   ],
+   "10:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ]
+  },
+  "Tue": {
+   "13:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 13
+    },
+    {
+     "item": "Samosa",
+     "qty": 9
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 7
+    }
+   ],
+   "11:30": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "12:30": [
+    {
+     "item": "Chole Bhature",
+     "qty": 12
+    },
+    {
+     "item": "Samosa",
+     "qty": 11
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 9
+    }
+   ],
+   "09:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "14:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "16:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "10:30": [
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "15:45": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "10:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "12:45": [
+    {
+     "item": "Chole Bhature",
+     "qty": 17
+    },
+    {
+     "item": "Samosa",
+     "qty": 10
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 10
+    }
+   ],
+   "14:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "13:45": [
+    {
+     "item": "Chole Bhature",
+     "qty": 5
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    }
+   ],
+   "13:30": [
+    {
+     "item": "Samosa",
+     "qty": 5
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 5
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    }
+   ],
+   "16:15": [
+    {
+     "item": "Chole Bhature",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 1
+    }
+   ],
+   "10:15": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "13:15": [
+    {
+     "item": "Chole Bhature",
+     "qty": 9
+    },
+    {
+     "item": "Samosa",
+     "qty": 8
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 6
+    }
+   ],
+   "11:15": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "12:15": [
+    {
+     "item": "Chole Bhature",
+     "qty": 9
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 8
+    },
+    {
+     "item": "Samosa",
+     "qty": 7
+    }
+   ],
+   "12:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 9
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 4
+    }
+   ],
+   "16:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    }
+   ],
+   "15:30": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "14:30": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "15:00": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "10:45": [
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "11:45": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 3
+    }
+   ],
+   "09:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "16:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    }
+   ],
+   "11:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "14:15": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    }
+   ],
+   "09:15": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "09:30": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "15:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ]
+  },
+  "Wed": {
+   "09:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "12:30": [
+    {
+     "item": "Samosa",
+     "qty": 13
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 10
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 9
+    }
+   ],
+   "12:45": [
+    {
+     "item": "Vada Pav",
+     "qty": 15
+    },
+    {
+     "item": "Samosa",
+     "qty": 11
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 9
+    }
+   ],
+   "13:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 11
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 7
+    },
+    {
+     "item": "Samosa",
+     "qty": 6
+    }
+   ],
+   "10:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "16:30": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "15:30": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    }
+   ],
+   "13:00": [
+    {
+     "item": "Vada Pav",
+     "qty": 11
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 11
+    },
+    {
+     "item": "Samosa",
+     "qty": 10
+    }
+   ],
+   "16:00": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "15:00": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "09:45": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "12:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 13
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 8
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 8
+    }
+   ],
+   "12:00": [
+    {
+     "item": "Samosa",
+     "qty": 5
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 5
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 4
+    }
+   ],
+   "10:30": [
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 1
+    }
+   ],
+   "14:45": [
+    {
+     "item": "Vada Pav",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "10:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "14:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "11:30": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "13:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 7
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 5
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 4
+    }
+   ],
+   "11:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 6
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "16:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "14:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "16:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "10:00": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "09:15": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "14:30": [
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 1
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    }
+   ],
+   "13:45": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "11:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "11:15": [
+    {
+     "item": "Masala Dosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    }
+   ],
+   "09:00": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 1
+    }
+   ],
+   "15:45": [
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "15:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ]
+  },
+  "Thu": {
+   "13:15": [
+    {
+     "item": "Samosa",
+     "qty": 11
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 6
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    }
+   ],
+   "09:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    },
+    {
+     "item": "Samosa",
+     "qty": 1
+    }
+   ],
+   "13:00": [
+    {
+     "item": "Masala Maggi",
+     "qty": 12
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 9
+    },
+    {
+     "item": "Samosa",
+     "qty": 8
+    }
+   ],
+   "13:45": [
+    {
+     "item": "Masala Maggi",
+     "qty": 3
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "11:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 4
+    }
+   ],
+   "16:15": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 1
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    }
+   ],
+   "16:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "12:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 8
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 7
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 6
+    }
+   ],
+   "09:15": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 1
+    }
+   ],
+   "13:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    }
+   ],
+   "10:15": [
+    {
+     "item": "Masala Maggi",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "10:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "12:45": [
+    {
+     "item": "Masala Maggi",
+     "qty": 12
+    },
+    {
+     "item": "Samosa",
+     "qty": 11
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 9
+    }
+   ],
+   "14:00": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "12:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 13
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 11
+    },
+    {
+     "item": "Samosa",
+     "qty": 10
+    }
+   ],
+   "14:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "12:00": [
+    {
+     "item": "Samosa",
+     "qty": 7
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 6
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    }
+   ],
+   "11:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    }
+   ],
+   "10:00": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "09:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    }
+   ],
+   "15:00": [
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    }
+   ],
+   "09:30": [
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    }
+   ],
+   "11:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 1
+    }
+   ],
+   "14:30": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "15:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "10:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "15:30": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "16:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 1
+    }
+   ],
+   "14:15": [
+    {
+     "item": "Masala Maggi",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "16:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "11:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "15:15": [
+    {
+     "item": "Masala Maggi",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    }
+   ]
+  },
+  "Fri": {
+   "16:15": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "13:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 8
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 7
+    },
+    {
+     "item": "Samosa",
+     "qty": 7
+    }
+   ],
+   "12:00": [
+    {
+     "item": "Veg Biryani",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 4
+    }
+   ],
+   "09:45": [
+    {
+     "item": "Veg Biryani",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "10:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "15:45": [
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    }
+   ],
+   "12:30": [
+    {
+     "item": "Veg Biryani",
+     "qty": 12
+    },
+    {
+     "item": "Samosa",
+     "qty": 10
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 9
+    }
+   ],
+   "10:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "13:30": [
+    {
+     "item": "Veg Biryani",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    }
+   ],
+   "12:15": [
+    {
+     "item": "Samosa",
+     "qty": 7
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 6
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    }
+   ],
+   "12:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 10
+    },
+    {
+     "item": "Samosa",
+     "qty": 10
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 8
+    }
+   ],
+   "11:30": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 1
+    }
+   ],
+   "11:45": [
+    {
+     "item": "Vada Pav",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 3
+    }
+   ],
+   "10:45": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "13:15": [
+    {
+     "item": "Samosa",
+     "qty": 9
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 5
+    }
+   ],
+   "13:45": [
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 1
+    }
+   ],
+   "15:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "10:30": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "16:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    }
+   ],
+   "14:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 1
+    }
+   ],
+   "16:00": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "16:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "09:15": [
+    {
+     "item": "Veg Biryani",
+     "qty": 4
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "15:00": [
+    {
+     "item": "Veg Biryani",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 1
+    }
+   ],
+   "09:30": [
+    {
+     "item": "Samosa",
+     "qty": 1
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "15:15": [
+    {
+     "item": "Veg Biryani",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 1
+    }
+   ],
+   "09:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 1
+    }
+   ],
+   "14:30": [
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 1
+    }
+   ],
+   "14:00": [
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "11:00": [
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "11:15": [
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    }
+   ],
+   "14:15": [
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 1
+    }
+   ]
+  },
+  "Sat": {
+   "12:45": [
+    {
+     "item": "Samosa",
+     "qty": 16
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 9
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 8
+    }
+   ],
+   "12:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 7
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 7
+    },
+    {
+     "item": "Samosa",
+     "qty": 7
+    }
+   ],
+   "13:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 7
+    },
+    {
+     "item": "Samosa",
+     "qty": 6
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 6
+    }
+   ],
+   "11:00": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "13:30": [
+    {
+     "item": "Samosa",
+     "qty": 5
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    }
+   ],
+   "13:00": [
+    {
+     "item": "Samosa",
+     "qty": 12
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 11
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 8
+    }
+   ],
+   "15:00": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "12:30": [
+    {
+     "item": "Samosa",
+     "qty": 10
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 10
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 10
+    }
+   ],
+   "12:00": [
+    {
+     "item": "Samosa",
+     "qty": 5
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 5
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 4
+    }
+   ],
+   "15:45": [
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 1
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "09:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "09:45": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "14:30": [
+    {
+     "item": "Grilled Sandwich",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "13:45": [
+    {
+     "item": "Veg Biryani",
+     "qty": 3
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "16:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 4
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    }
+   ],
+   "14:45": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 2
+    }
+   ],
+   "14:00": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    }
+   ],
+   "10:45": [
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    }
+   ],
+   "16:45": [
+    {
+     "item": "Masala Dosa",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 2
+    }
+   ],
+   "09:15": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "11:30": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    }
+   ],
+   "11:15": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 1
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 1
+    }
+   ],
+   "16:00": [
+    {
+     "item": "Grilled Sandwich",
+     "qty": 3
+    },
+    {
+     "item": "Cold Coffee",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "11:45": [
+    {
+     "item": "Samosa",
+     "qty": 4
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 4
+    },
+    {
+     "item": "Cutting Chai",
+     "qty": 4
+    }
+   ],
+   "09:00": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    }
+   ],
+   "10:30": [
+    {
+     "item": "Samosa",
+     "qty": 2
+    },
+    {
+     "item": "Veg Biryani",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ],
+   "16:30": [
+    {
+     "item": "Veg Biryani",
+     "qty": 1
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 1
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 1
+    }
+   ],
+   "10:15": [
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "10:00": [
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Chole Bhature",
+     "qty": 2
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    }
+   ],
+   "15:15": [
+    {
+     "item": "Cutting Chai",
+     "qty": 3
+    },
+    {
+     "item": "Masala Dosa",
+     "qty": 2
+    },
+    {
+     "item": "Samosa",
+     "qty": 2
+    }
+   ],
+   "15:30": [
+    {
+     "item": "Samosa",
+     "qty": 3
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Vada Pav",
+     "qty": 2
+    }
+   ],
+   "14:15": [
+    {
+     "item": "Chole Bhature",
+     "qty": 3
+    },
+    {
+     "item": "Grilled Sandwich",
+     "qty": 2
+    },
+    {
+     "item": "Masala Maggi",
+     "qty": 2
+    }
+   ]
+  }
+ }
+}

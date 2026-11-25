@@ -1,4 +1,4 @@
-# Rush Hour (Yellow) - Data Analyst Pack
+# Rush Hour - Data Analyst Pack
 
 **Mission:** kill the canteen queue. At 1 pm about 400 students reach one counter. This pack is the data analyst's part of the team: it generates the data, finds the insights, and gives the rest of the team numbers and functions to use.
 

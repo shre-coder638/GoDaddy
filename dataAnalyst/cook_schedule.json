@@ -1,0 +1,476 @@
+{
+ "Monday": [
+  {
+   "slot": "12:30",
+   "start_cooking": "12:10",
+   "items": {
+    "Samosa": 26,
+    "Chole Bhature": 13,
+    "Maggi": 13,
+    "Masala Chai": 12,
+    "Aloo Paratha": 11
+   }
+  },
+  {
+   "slot": "12:45",
+   "start_cooking": "12:25",
+   "items": {
+    "Samosa": 28,
+    "Maggi": 13,
+    "Paneer Roll": 12,
+    "Masala Chai": 11,
+    "Chole Bhature": 10
+   }
+  },
+  {
+   "slot": "13:00",
+   "start_cooking": "12:40",
+   "items": {
+    "Samosa": 63,
+    "Masala Chai": 34,
+    "Maggi": 33,
+    "Paneer Roll": 28,
+    "Veg Thali": 27
+   }
+  },
+  {
+   "slot": "13:15",
+   "start_cooking": "12:55",
+   "items": {
+    "Samosa": 60,
+    "Chole Bhature": 33,
+    "Masala Chai": 33,
+    "Maggi": 32,
+    "Veg Thali": 28
+   }
+  },
+  {
+   "slot": "13:30",
+   "start_cooking": "13:10",
+   "items": {
+    "Samosa": 12,
+    "Maggi": 8,
+    "Chole Bhature": 8,
+    "Veg Burger": 7,
+    "Masala Chai": 5
+   }
+  },
+  {
+   "slot": "13:45",
+   "start_cooking": "13:25",
+   "items": {
+    "Samosa": 14,
+    "Chole Bhature": 8,
+    "Masala Chai": 7,
+    "Aloo Paratha": 6,
+    "Maggi": 6
+   }
+  },
+  {
+   "slot": "14:00",
+   "start_cooking": "13:40",
+   "items": {
+    "Samosa": 14,
+    "Masala Chai": 8,
+    "Maggi": 7,
+    "Chole Bhature": 6,
+    "Aloo Paratha": 6
+   }
+  }
+ ],
+ "Tuesday": [
+  {
+   "slot": "12:30",
+   "start_cooking": "12:10",
+   "items": {
+    "Chole Bhature": 29,
+    "Samosa": 19,
+    "Masala Chai": 16,
+    "Maggi": 14,
+    "Paneer Roll": 12
+   }
+  },
+  {
+   "slot": "12:45",
+   "start_cooking": "12:25",
+   "items": {
+    "Chole Bhature": 32,
+    "Masala Chai": 21,
+    "Samosa": 19,
+    "Maggi": 14,
+    "Paneer Roll": 12
+   }
+  },
+  {
+   "slot": "13:00",
+   "start_cooking": "12:40",
+   "items": {
+    "Chole Bhature": 59,
+    "Samosa": 35,
+    "Maggi": 33,
+    "Masala Chai": 32,
+    "Paneer Roll": 30
+   }
+  },
+  {
+   "slot": "13:15",
+   "start_cooking": "12:55",
+   "items": {
+    "Chole Bhature": 61,
+    "Samosa": 38,
+    "Maggi": 35,
+    "Masala Chai": 34,
+    "Cold Coffee": 31
+   }
+  },
+  {
+   "slot": "13:30",
+   "start_cooking": "13:10",
+   "items": {
+    "Chole Bhature": 14,
+    "Samosa": 12,
+    "Masala Chai": 10,
+    "Paneer Roll": 7,
+    "Veg Thali": 7
+   }
+  },
+  {
+   "slot": "13:45",
+   "start_cooking": "13:25",
+   "items": {
+    "Chole Bhature": 17,
+    "Maggi": 8,
+    "Masala Chai": 6,
+    "Samosa": 6,
+    "Veg Burger": 5
+   }
+  },
+  {
+   "slot": "14:00",
+   "start_cooking": "13:40",
+   "items": {
+    "Chole Bhature": 15,
+    "Samosa": 10,
+    "Masala Chai": 8,
+    "Paneer Roll": 8,
+    "Masala Dosa": 8
+   }
+  }
+ ],
+ "Wednesday": [
+  {
+   "slot": "12:30",
+   "start_cooking": "12:10",
+   "items": {
+    "Cold Coffee": 16,
+    "Paneer Roll": 16,
+    "Samosa": 13,
+    "Chole Bhature": 12,
+    "Veg Thali": 12
+   }
+  },
+  {
+   "slot": "12:45",
+   "start_cooking": "12:25",
+   "items": {
+    "Masala Chai": 16,
+    "Samosa": 15,
+    "Paneer Roll": 15,
+    "Maggi": 14,
+    "Cold Coffee": 12
+   }
+  },
+  {
+   "slot": "13:00",
+   "start_cooking": "12:40",
+   "items": {
+    "Paneer Roll": 44,
+    "Cold Coffee": 38,
+    "Samosa": 36,
+    "Masala Chai": 32,
+    "Chole Bhature": 30
+   }
+  },
+  {
+   "slot": "13:15",
+   "start_cooking": "12:55",
+   "items": {
+    "Paneer Roll": 43,
+    "Samosa": 38,
+    "Cold Coffee": 38,
+    "Masala Chai": 35,
+    "Maggi": 28
+   }
+  },
+  {
+   "slot": "13:30",
+   "start_cooking": "13:10",
+   "items": {
+    "Cold Coffee": 11,
+    "Paneer Roll": 9,
+    "Masala Chai": 7,
+    "Veg Burger": 6,
+    "Veg Thali": 6
+   }
+  },
+  {
+   "slot": "13:45",
+   "start_cooking": "13:25",
+   "items": {
+    "Samosa": 11,
+    "Paneer Roll": 10,
+    "Cold Coffee": 8,
+    "Veg Thali": 8,
+    "Maggi": 7
+   }
+  },
+  {
+   "slot": "14:00",
+   "start_cooking": "13:40",
+   "items": {
+    "Paneer Roll": 12,
+    "Masala Chai": 9,
+    "Maggi": 8,
+    "Cold Coffee": 7,
+    "Chole Bhature": 7
+   }
+  }
+ ],
+ "Thursday": [
+  {
+   "slot": "12:30",
+   "start_cooking": "12:10",
+   "items": {
+    "Veg Thali": 18,
+    "Samosa": 15,
+    "Cold Coffee": 13,
+    "Masala Chai": 12,
+    "Fried Rice": 12
+   }
+  },
+  {
+   "slot": "12:45",
+   "start_cooking": "12:25",
+   "items": {
+    "Veg Thali": 20,
+    "Samosa": 15,
+    "Masala Chai": 13,
+    "Chole Bhature": 13,
+    "Paneer Roll": 11
+   }
+  },
+  {
+   "slot": "13:00",
+   "start_cooking": "12:40",
+   "items": {
+    "Veg Thali": 58,
+    "Samosa": 34,
+    "Paneer Roll": 31,
+    "Masala Chai": 30,
+    "Maggi": 28
+   }
+  },
+  {
+   "slot": "13:15",
+   "start_cooking": "12:55",
+   "items": {
+    "Veg Thali": 46,
+    "Masala Chai": 36,
+    "Samosa": 34,
+    "Chole Bhature": 30,
+    "Paneer Roll": 29
+   }
+  },
+  {
+   "slot": "13:30",
+   "start_cooking": "13:10",
+   "items": {
+    "Veg Thali": 10,
+    "Samosa": 9,
+    "Masala Chai": 7,
+    "Chole Bhature": 6,
+    "Fried Rice": 5
+   }
+  },
+  {
+   "slot": "13:45",
+   "start_cooking": "13:25",
+   "items": {
+    "Veg Thali": 8,
+    "Chole Bhature": 7,
+    "Masala Chai": 7,
+    "Samosa": 6,
+    "Fried Rice": 6
+   }
+  },
+  {
+   "slot": "14:00",
+   "start_cooking": "13:40",
+   "items": {
+    "Veg Thali": 10,
+    "Samosa": 7,
+    "Paneer Roll": 6,
+    "Chole Bhature": 5,
+    "Maggi": 5
+   }
+  }
+ ],
+ "Friday": [
+  {
+   "slot": "12:30",
+   "start_cooking": "12:10",
+   "items": {
+    "Maggi": 18,
+    "Samosa": 13,
+    "Veg Burger": 11,
+    "Masala Dosa": 11,
+    "Veg Thali": 10
+   }
+  },
+  {
+   "slot": "12:45",
+   "start_cooking": "12:25",
+   "items": {
+    "Maggi": 14,
+    "Chole Bhature": 12,
+    "Cold Coffee": 11,
+    "Masala Chai": 10,
+    "Samosa": 10
+   }
+  },
+  {
+   "slot": "13:00",
+   "start_cooking": "12:40",
+   "items": {
+    "Maggi": 38,
+    "Samosa": 32,
+    "Veg Burger": 26,
+    "Paneer Roll": 23,
+    "Masala Chai": 22
+   }
+  },
+  {
+   "slot": "13:15",
+   "start_cooking": "12:55",
+   "items": {
+    "Maggi": 40,
+    "Samosa": 29,
+    "Veg Burger": 26,
+    "Masala Chai": 26,
+    "Chole Bhature": 25
+   }
+  },
+  {
+   "slot": "13:30",
+   "start_cooking": "13:10",
+   "items": {
+    "Maggi": 9,
+    "Veg Burger": 7,
+    "Samosa": 7,
+    "Masala Chai": 6,
+    "Chole Bhature": 6
+   }
+  },
+  {
+   "slot": "13:45",
+   "start_cooking": "13:25",
+   "items": {
+    "Samosa": 8,
+    "Chole Bhature": 8,
+    "Maggi": 8,
+    "Veg Burger": 6,
+    "Masala Chai": 6
+   }
+  },
+  {
+   "slot": "14:00",
+   "start_cooking": "13:40",
+   "items": {
+    "Maggi": 12,
+    "Veg Burger": 10,
+    "Chole Bhature": 8,
+    "Masala Chai": 7,
+    "Veg Thali": 7
+   }
+  }
+ ],
+ "Saturday": [
+  {
+   "slot": "12:30",
+   "start_cooking": "12:10",
+   "items": {
+    "Masala Chai": 8,
+    "Samosa": 8,
+    "Cold Coffee": 8,
+    "Chole Bhature": 7,
+    "Maggi": 7
+   }
+  },
+  {
+   "slot": "12:45",
+   "start_cooking": "12:25",
+   "items": {
+    "Masala Dosa": 10,
+    "Samosa": 9,
+    "Maggi": 8,
+    "Cold Coffee": 7,
+    "Masala Chai": 7
+   }
+  },
+  {
+   "slot": "13:00",
+   "start_cooking": "12:40",
+   "items": {
+    "Cold Coffee": 19,
+    "Samosa": 18,
+    "Masala Dosa": 15,
+    "Masala Chai": 14,
+    "Paneer Roll": 14
+   }
+  },
+  {
+   "slot": "13:15",
+   "start_cooking": "12:55",
+   "items": {
+    "Cold Coffee": 19,
+    "Masala Chai": 17,
+    "Maggi": 16,
+    "Samosa": 15,
+    "Veg Thali": 14
+   }
+  },
+  {
+   "slot": "13:30",
+   "start_cooking": "13:10",
+   "items": {
+    "Masala Dosa": 4,
+    "Samosa": 4,
+    "Aloo Paratha": 4,
+    "Chole Bhature": 4,
+    "Maggi": 4
+   }
+  },
+  {
+   "slot": "13:45",
+   "start_cooking": "13:25",
+   "items": {
+    "Samosa": 5,
+    "Masala Chai": 4,
+    "Cold Coffee": 4,
+    "Maggi": 4,
+    "Chole Bhature": 3
+   }
+  },
+  {
+   "slot": "14:00",
+   "start_cooking": "13:40",
+   "items": {
+    "Masala Chai": 5,
+    "Cold Coffee": 5,
+    "Samosa": 5,
+    "Maggi": 4,
+    "Chole Bhature": 4
+   }
+  }
+ ]
+}

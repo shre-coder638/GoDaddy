@@ -1,0 +1,11 @@
+[
+{"id":"samosa","name":"Samosa","price":15,"emoji":"🥟","pop":30,"boost":"Mon","prep":2},
+{"id":"vadapav","name":"Vada Pav","price":20,"emoji":"🍔","pop":22,"boost":"Wed","prep":2},
+{"id":"chole","name":"Chole Bhature","price":60,"emoji":"🫓","pop":20,"boost":"Tue","prep":6},
+{"id":"biryani","name":"Veg Biryani","price":80,"emoji":"🍛","pop":16,"boost":"Fri","prep":7},
+{"id":"maggi","name":"Masala Maggi","price":30,"emoji":"🍜","pop":18,"boost":"Thu","prep":4},
+{"id":"sandwich","name":"Grilled Sandwich","price":40,"emoji":"🥪","pop":12,"boost":"Sat","prep":4},
+{"id":"dosa","name":"Masala Dosa","price":50,"emoji":"🥞","pop":10,"boost":"Sat","prep":5},
+{"id":"chai","name":"Cutting Chai","price":10,"emoji":"☕","pop":26,"boost":"Mon","prep":1},
+{"id":"coldcoffee","name":"Cold Coffee","price":35,"emoji":"🥤","pop":9,"boost":"Thu","prep":2}
+]

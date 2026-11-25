@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rush Hour · Campus Canteen</title>
+<style>
+:root{--bg:#fff8f1;--card:#fff;--ink:#1f1a17;--mut:#7a6e66;--pri:#c2410c;--pri2:#ea580c;--line:#f0e2d6;--ok:#15803d;--warn:#b45309;--bad:#b91c1c}
+@media(prefers-color-scheme:dark){:root{--bg:#17120f;--card:#221b16;--ink:#f6ede4;--mut:#b3a396;--line:#3a2e26;--ok:#4ade80;--warn:#fbbf24;--bad:#f87171}}
+*{box-sizing:border-box}body{margin:0;font:16px/1.4 system-ui,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:90px}
+nav{position:sticky;top:0;z-index:5;background:var(--pri);color:#fff;display:flex;align-items:center;gap:4px;padding:10px 14px;flex-wrap:wrap}
+nav b{font-size:18px;margin-right:auto}nav a{color:#fff;text-decoration:none;padding:6px 10px;border-radius:8px;font-size:14px;opacity:.9}nav a.on{background:#0003;opacity:1}
+main{max-width:780px;margin:0 auto;padding:16px}h2{margin:.2em 0 .5em}.mut{color:var(--mut);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.item{text-align:center;cursor:pointer;user-select:none}.item .e{font-size:34px}.item.sel{border-color:var(--pri);box-shadow:0 0 0 2px var(--pri)}
+.qty{display:flex;justify-content:center;gap:10px;align-items:center;margin-top:6px}
+button,.btn{font:inherit;border:0;border-radius:10px;padding:10px 16px;background:var(--pri);color:#fff;cursor:pointer;font-weight:600}
+button.sec{background:transparent;color:var(--pri);border:1px solid var(--pri)}button:disabled{opacity:.4;cursor:not-allowed}
+button.q{padding:2px 12px;font-size:18px}
+input,select{font:inherit;width:100%;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);margin:4px 0 10px}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.slot{border:2px solid var(--line);border-radius:12px;padding:8px;cursor:pointer;background:var(--card);text-align:left;color:var(--ink);font-weight:500}
+.slot.sel{border-color:var(--pri);background:#c2410c18}.slot.full{opacity:.45;cursor:not-allowed;text-decoration:line-through}
+.bar{height:6px;background:var(--line);border-radius:4px;margin-top:6px;overflow:hidden}.bar i{display:block;height:100%}
+.quiet i{background:var(--ok)}.moderate i{background:var(--warn)}.busy i{background:#ea580c}.full i{background:var(--bad)}
+.tag{font-size:11px;padding:1px 7px;border-radius:99px;background:var(--ok);color:#fff;margin-left:4px}
+.cartbar{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:12px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;z-index:6}
+.pass{text-align:center;border:2px dashed var(--pri)}.big{font-size:36px;font-weight:800;color:var(--pri)}
+.err{background:#b91c1c18;color:var(--bad);padding:10px;border-radius:10px;margin-bottom:10px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}.pill{display:inline-block;padding:2px 9px;border-radius:99px;background:var(--line);font-size:12px}
+.meter{display:flex;gap:14px;align-items:center}.meter .big{font-size:30px}table{width:100%;border-collapse:collapse}td,th{padding:5px 4px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
+.hbar{background:var(--pri2);height:14px;border-radius:4px}
+</style></head><body>
+<nav id="nav"></nav><main id="app"></main><div id="foot"></div>
+<script>
+const $=s=>document.querySelector(s);const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let S=JSON.parse(localStorage.getItem('rh')||'null'),timer=null;const cart={},st={slot:null};
+const BASE=location.protocol==='file:'?'http://localhost:3000':'';
+async function api(p,o={}){const r=await fetch(BASE+'/api'+p,{method:o.method||'GET',headers:{'Content-Type':'application/json',...(S?{Authorization:'Bearer '+S.token}:{})},body:o.body?JSON.stringify(o.body):undefined}).catch(()=>{throw new Error('Cannot reach the server. Start it with "node server.js" and open http://localhost:3000')});const d=await r.json().catch(()=>({}));if(!r.ok)throw Object.assign(new Error(d.message||'Error'),{data:d,status:r.status});return d}
+const go=h=>location.hash=h;const setS=s=>{S=s;s?localStorage.setItem('rh',JSON.stringify(s)):localStorage.removeItem('rh');};
+function navbar(){const r=location.hash.slice(1)||'/';const L=!S?[['/login','Log in'],['/signup','Sign up']]:S.user.role==='kitchen'?[['/kitchen','Kitchen'],['/insights','Insights']]:[['/order','Order'],['/orders','My orders'],['/insights','Insights']];
+$('#nav').innerHTML='<b>🍛 Rush Hour</b>'+L.map(([h,t])=>`<a href="#${h}" class="${r===h?'on':''}">${t}</a>`).join('')+(S?`<a href="#/login" id="lo">Log out (${esc(S.user.name.split(' ')[0])})</a>`:'');
+if(S)$('#lo').onclick=e=>{setS(null);for(const k in cart)delete cart[k];};}
+const home=()=>!S?'/login':S.user.role==='kitchen'?'/kitchen':'/order';
+async function route(){clearInterval(timer);$('#foot').innerHTML='';let r=location.hash.slice(1)||'/';if(r==='/')return go('#'+home());
+const pub=['/login','/signup'];if(!S&&!pub.includes(r)&&r!=='/insights')return go('#/login');if(S&&pub.includes(r)&&r!=='/login')return go('#'+home());
+if(S&&S.user.role==='kitchen'&&['/order','/orders'].includes(r))return go('#/kitchen');if(S&&S.user.role!=='kitchen'&&r==='/kitchen')return go('#/order');
+navbar();const V={'/login':login,'/signup':signup,'/order':order,'/orders':myOrders,'/kitchen':kitchen,'/insights':insights}[r];
+try{await(V||(()=>$('#app').innerHTML='<h2>Page not found</h2><a href="#/">Go home</a>'))()}catch(e){$('#app').innerHTML=`<div class="err">${esc(e.message)}</div>`}}
+addEventListener('hashchange',route);route();
+
+function authForm(mode){const su=mode==='signup';$('#app').innerHTML=`<div class="card"><h2>${su?'Create your account':'Welcome back'}</h2><div id="e"></div>
+${su?'<input id="n" placeholder="Full name">':''}<input id="em" type="email" placeholder="Email"><input id="pw" type="password" placeholder="Password (min 6)">
+${su?'<select id="ro"><option value="student">I am a student</option><option value="kitchen">I run the canteen kitchen</option></select><input id="sc" placeholder="Staff code (kitchen only)" style="display:none">':''}
+<button id="go" style="width:100%">${su?'Sign up':'Log in'}</button><p class="mut">${su?'Already have an account? <a href="#/login">Log in</a>':'New here? <a href="#/signup">Create an account</a>'}</p>
+<p class="mut">Demo staff code: <b>canteen123</b></p></div>`;
+if(su)$('#ro').onchange=e=>$('#sc').style.display=e.target.value==='kitchen'?'block':'none';
+$('#go').onclick=async()=>{try{const b={email:$('#em').value,password:$('#pw').value};if(su){b.name=$('#n').value;b.role=$('#ro').value;b.staffCode=$('#sc').value}
+setS(await api(su?'/signup':'/login',{method:'POST',body:b}));go('#'+home())}catch(e){$('#e').innerHTML=`<div class="err">${esc(e.message)}</div>`}}}
+const login=()=>authForm('login'),signup=()=>authForm('signup');
+
+async function order(){const[m,sl,q]=await Promise.all([api('/menu'),api('/slots'),api('/queue')]);
+const sum=()=>Object.entries(cart).reduce((a,[id,n])=>a+n*m.items.find(i=>i.id===id).price,0),cnt=()=>Object.values(cart).reduce((a,b)=>a+b,0);
+const draw=(msg='',slots=sl.slots)=>{$('#app').innerHTML=`${msg}<div class="card meter"><div class="big">${q.waiting}</div><div>orders in queue now<br><span class="mut">≈ ${q.estWaitMin} min wait if you walk up · <b>${q.level}</b></span></div></div>
+<div class="card"><b>🔥 ${m.combo.name}</b> — ${m.combo.items.map(i=>i.name).join(' + ')} for <b>₹${m.combo.price}</b> <span class="tag">save ₹${m.combo.save}</span> <button class="sec" id="cb" style="margin-left:8px;padding:4px 10px">Add</button></div>
+<h2>1 · Pick food</h2><div class="grid">${m.items.map(i=>`<div class="card item ${cart[i.id]?'sel':''}" data-id="${i.id}"><div class="e">${i.emoji}</div><b>${i.name}</b><div class="mut">₹${i.price}</div>
+${cart[i.id]?`<div class="qty"><button class="q" data-d="-1">−</button><b>${cart[i.id]}</b><button class="q" data-d="1">+</button></div>`:''}</div>`).join('')}</div>
+<h2>2 · Pick a pickup slot</h2><p class="mut">Green = quiet (fastest). Choose a quieter slot to skip the rush.</p><div class="slots">${slots.map(s=>`<button class="slot ${s.level} ${st.slot===s.slot?'sel':''} ${s.full?'full':''}" data-s="${s.slot}" ${s.full?'disabled':''}>${s.label.replace(/ [AP]M/,'')}${s.quietest?'<span class="tag">quietest</span>':''}<div class="mut">${s.full?'FULL':s.booked+'/'+s.capacity+' booked'}</div><div class="bar ${s.level}"><i style="width:${Math.min(100,s.load)}%"></i></div></button>`).join('')}</div>`;
+$('#foot').innerHTML=`<div class="cartbar"><div><b>${cnt()} items · ₹${sum()}</b><div class="mut">${st.slot?'Pickup '+slots.find(s=>s.slot===st.slot).label:'Choose a slot'}</div></div><button id="ok" ${cnt()&&st.slot?'':'disabled'}>3 · Confirm order</button></div>`;
+document.querySelectorAll('.item').forEach(el=>el.onclick=e=>{const id=el.dataset.id,d=e.target.dataset.d;if(d){cart[id]=Math.max(0,(cart[id]||0)+ +d);if(!cart[id])delete cart[id]}else if(!cart[id])cart[id]=1;draw(msg)});
+document.querySelectorAll('.slot').forEach(el=>el.onclick=()=>{st.slot=el.dataset.s;draw(msg)});
+$('#cb').onclick=()=>{m.combo.items.forEach(i=>cart[i.id]=(cart[i.id]||0)+1);draw(msg)};
+$('#ok').onclick=async()=>{try{const o=await api('/orders',{method:'POST',body:{items:Object.entries(cart).map(([id,qty])=>({id,qty})),slot:st.slot}});for(const k in cart)delete cart[k];st.slot=null;sessionStorage.setItem('last',JSON.stringify(o));go('#/orders')}
+catch(e){if(e.data?.error==='SLOT_FULL'){const fresh=await api('/slots');const n=e.data.nextSlot;draw(`<div class="err">${esc(e.message)} ${n?`Next available: <b>${n.label}</b> <button id="nx" style="padding:4px 10px">Use it</button>`:'No slots left today.'}</div>`,fresh.slots);st.slot=null;if(n)$('#nx').onclick=()=>{st.slot=n.slot;draw('',fresh.slots)}}else draw(`<div class="err">${esc(e.message)}</div>`)}}};
+draw();timer=setInterval(async()=>{if(document.querySelector('.err'))return;const f=await api('/slots').catch(()=>null);if(f)sl.slots=f.slots;if(st.slot&&sl.slots.find(s=>s.slot===st.slot)?.full)st.slot=null;draw('',sl.slots)},8000)}
+
+const pass=o=>`<div class="card pass"><div class="mut">Order ${o.id} · ${esc(o.status)}</div><div class="mut">Pickup time</div><div class="big">${o.pickupTime}</div><div>Show OTP <b style="font-size:22px">${o.otp}</b></div>
+<div class="mut">${o.items.map(i=>i.qty+'× '+i.name).join(', ')} · ₹${o.total}</div></div>`;
+async function myOrders(){const last=JSON.parse(sessionStorage.getItem('last')||'null');sessionStorage.removeItem('last');
+const draw=async()=>{const os=await api('/orders/mine');$('#app').innerHTML=(last?`<h2>✅ Order placed!</h2>${pass(last)}`:'')+`<h2>My orders</h2>`+(os.length?os.map(pass).join(''):'<p class="mut">No orders yet. <a href="#/order">Order now</a></p>')};await draw();timer=setInterval(draw,5000)}
+
+async function kitchen(){const draw=async()=>{const[os,cn,q,sl]=await Promise.all([api('/kitchen/orders'),api('/kitchen/cook-next'),api('/queue'),api('/slots')]);const col=(s,t)=>`<div><h3>${t} (${os.filter(o=>o.status===s).length})</h3>${os.filter(o=>o.status===s).map(o=>`<div class="card"><b>${o.id}</b> <span class="pill">${o.pickupTime.split('–')[0]}</span><div>${esc(o.customer)}</div><div class="mut">${o.items.map(i=>i.qty+'× '+i.name).join(', ')}</div><div class="mut">OTP ${o.otp}</div>
+<button data-id="${o.id}" data-st="${{NEW:'COOKING',COOKING:'READY',READY:'DONE'}[s]}">${{NEW:'Start cooking',COOKING:'Mark ready',READY:'Handed over'}[s]}</button></div>`).join('')||'<p class="mut">—</p>'}</div>`;
+$('#app').innerHTML=`<div class="card meter"><div class="big">${q.waiting}</div><div><b>Live queue</b> · ≈ ${q.estWaitMin} min · ${q.level}</div></div>
+<div class="card"><h3>👨‍🍳 Cook next ${cn.nextSlot?'— for '+cn.nextSlot:''}</h3>${cn.cookNow.length?cn.cookNow.map(c=>`<span class="pill" style="font-size:15px;margin:2px">${c.qty}× ${c.item}</span>`).join(' '):'<span class="mut">Nothing pending.</span>'}
+<h3>📈 Cook ahead (from 30 days of ${cn.weekday} data)</h3><table>${cn.cookAhead.map(a=>`<tr><td>${a.label}</td><td>${a.suggest.map(s=>s.qty+'× '+s.item).join(', ')}</td></tr>`).join('')}</table></div>
+<div class="cols">${col('NEW','New')}${col('COOKING','Cooking')}${col('READY','Ready')}</div>`;
+document.querySelectorAll('button[data-id]').forEach(b=>b.onclick=async()=>{await api(`/kitchen/orders/${b.dataset.id}/status`,{method:'PATCH',body:{status:b.dataset.st}});draw()})};
+await draw();timer=setInterval(draw,4000)}
+
+async function insights(){const d=await api('/insights'),mx=d.peakSlots[0].orders,days=Object.keys(d.topByDay);
+$('#app').innerHTML=`<h2>📊 What 30 days of orders say</h2><p class="mut">${d.totalOrders.toLocaleString()} fake orders (no real data).</p>
+<div class="card"><h3>Busiest 15-minute slots</h3>${d.peakSlots.map(p=>`<div style="display:flex;gap:8px;align-items:center;margin:4px 0"><span style="width:50px">${p.slot}</span><div class="hbar" style="width:${100*p.orders/mx}%"></div><span class="mut">${p.orders}</span></div>`).join('')}
+<p><b>Insight:</b> ${d.peakSlots[0].slot} is the single busiest slot — steering students to quieter slots flattens the 1 pm spike.</p></div>
+<div class="card"><h3>Top 5 items by weekday (avg per day)</h3><select id="wd">${days.map(x=>`<option>${x}</option>`).join('')}</select><div id="tb"></div></div>`;
+const t=()=>$('#tb').innerHTML='<table>'+d.topByDay[$('#wd').value].map((x,i)=>`<tr><td>${i+1}</td><td>${x.item}</td><td>${x.avgPerDay}</td></tr>`).join('')+'</table>';$('#wd').onchange=t;t()}
+</script></body></html>

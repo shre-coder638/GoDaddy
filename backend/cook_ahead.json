@@ -1,0 +1,47 @@
+{
+  "note": "avg units sold per item in the 12:45-13:45 rush, by weekday",
+  "cook_ahead": {
+    "Monday": {
+      "Samosa": 163,
+      "Maggi": 87,
+      "Masala Chai": 83,
+      "Chole Bhature": 77,
+      "Veg Thali": 69
+    },
+    "Tuesday": {
+      "Chole Bhature": 166,
+      "Samosa": 104,
+      "Masala Chai": 98,
+      "Maggi": 87,
+      "Paneer Roll": 79
+    },
+    "Wednesday": {
+      "Paneer Roll": 112,
+      "Cold Coffee": 98,
+      "Samosa": 94,
+      "Masala Chai": 89,
+      "Maggi": 77
+    },
+    "Thursday": {
+      "Veg Thali": 134,
+      "Samosa": 92,
+      "Masala Chai": 86,
+      "Paneer Roll": 76,
+      "Chole Bhature": 74
+    },
+    "Friday": {
+      "Maggi": 101,
+      "Samosa": 77,
+      "Veg Burger": 67,
+      "Chole Bhature": 64,
+      "Masala Chai": 64
+    },
+    "Saturday": {
+      "Cold Coffee": 48,
+      "Samosa": 46,
+      "Masala Dosa": 43,
+      "Masala Chai": 41,
+      "Maggi": 41
+    }
+  }
+}
